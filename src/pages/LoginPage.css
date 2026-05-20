@@ -1,0 +1,18 @@
+.login-page {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-page-login);
+  padding: var(--space-6);
+}
+
+.login-card {
+  display: flex;
+  width: var(--dim-login-card-w);
+  min-height: var(--dim-login-card-h);
+  background: var(--color-neutral-50);
+  border-radius: var(--radius-login-card);
+  overflow: hidden;
+  box-shadow: var(--shadow-login-card);
+}

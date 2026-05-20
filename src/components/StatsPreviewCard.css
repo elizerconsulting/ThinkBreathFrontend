@@ -1,0 +1,103 @@
+.spc-card {
+  background: #fff;
+  border-radius: var(--radius-card);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-dashboard-card);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  border: 1.5px solid transparent;
+  transition: box-shadow var(--transition-base), transform var(--transition-base);
+}
+
+.spc-card:hover {
+  box-shadow: 0 6px 28px rgba(124, 58, 237, 0.11);
+  transform: translateY(-2px);
+}
+
+.spc-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.spc-title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-neutral-800);
+  margin: 0 0 var(--space-2);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+.spc-sub {
+  font-size: var(--font-size-sm);
+  color: var(--color-neutral-300);
+  line-height: var(--line-height-normal);
+  margin: 0;
+}
+
+.spc-stats-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  flex-shrink: 0;
+  background: var(--color-page-home);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+}
+
+.spc-mini-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  min-width: 36px;
+}
+
+.spc-mini-value {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-extrabold);
+  color: var(--color-brand-primary);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.spc-mini-label {
+  font-size: var(--font-size-2xs);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-neutral-200);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-caps);
+}
+
+.spc-mini-sep {
+  width: 1px;
+  height: 28px;
+  background: var(--border-color-default);
+  flex-shrink: 0;
+}
+
+.spc-btn {
+  width: 100%;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  border: var(--border-width-default) solid var(--color-brand-primary);
+  color: var(--color-brand-primary);
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  letter-spacing: var(--letter-spacing-wide);
+  transition: background var(--transition-base), color var(--transition-base);
+}
+
+.spc-btn:hover {
+  background: var(--color-brand-primary);
+  color: #fff;
+}

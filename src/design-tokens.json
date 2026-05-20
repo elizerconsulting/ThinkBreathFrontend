@@ -1,0 +1,170 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "$description": "Design tokens for ThinkBreath — login page + home dashboard",
+
+  "color": {
+    "brand": {
+      "primary":        { "$value": "#7C3AED", "$description": "Primary interactive colour — buttons, focus rings, links" },
+      "primaryHover":   { "$value": "#6D28D9", "$description": "Button :hover" },
+      "primaryLight":   { "$value": "#8B5CF6", "$description": "Lighter variant for checkmarks, accents" },
+      "primaryMuted":   { "$value": "#9B7FD4", "$description": "Subtle tint — lock keyhole, ghost elements" }
+    },
+
+    "accent": {
+      "amber":     { "$value": "#F59E0B", "$description": "Streak counter fill / fire icon" },
+      "amberLight":{ "$value": "#FBBF24", "$description": "Streak progress bar fill" },
+      "amberBg":   { "$value": "#FEF3C7", "$description": "Flame icon background chip" }
+    },
+
+    "neutral": {
+      "900": { "$value": "#0A0B18" },
+      "850": { "$value": "#15162B" },
+      "800": { "$value": "#1A1A2E", "$description": "Heading text" },
+      "700": { "$value": "#1E293B" },
+      "600": { "$value": "#334155" },
+      "500": { "$value": "#374151", "$description": "Body text" },
+      "400": { "$value": "#475569" },
+      "300": { "$value": "#94A3B8" },
+      "200": { "$value": "#9CA3AF", "$description": "Muted / placeholder" },
+      "150": { "$value": "#B0B7C3", "$description": "Input placeholder" },
+      "100": { "$value": "#E5E7EB", "$description": "Input border, dividers" },
+      "50":  { "$value": "#FFFFFF" }
+    },
+
+    "page": {
+      "login": { "$value": "#E2E2E2",  "$description": "Login page backdrop" },
+      "home":  { "$value": "#F8F7FF",  "$description": "Dashboard page background" }
+    },
+
+    "hero": {
+      "gradientStart": { "$value": "#667EEA", "$description": "Hero banner gradient left" },
+      "gradientEnd":   { "$value": "#764BA2", "$description": "Hero banner gradient right" }
+    },
+
+    "session": {
+      "gradientStart": { "$value": "#5B21B6", "$description": "Session card gradient left" },
+      "gradientEnd":   { "$value": "#2563EB", "$description": "Session card gradient right" }
+    },
+
+    "illustration": {
+      "characterJacket":    { "$value": "#F59E0B" },
+      "characterSkin":      { "$value": "#FCD34D" },
+      "characterPants":     { "$value": "#F1F5F9" },
+      "panelGradientStart": { "$value": "#667EEA" },
+      "panelGradientEnd":   { "$value": "#764BA2" },
+      "screenGradientStart":{ "$value": "#F472B6" },
+      "screenGradientEnd":  { "$value": "#7C3AED" }
+    }
+  },
+
+  "gradient": {
+    "hero":            { "$value": "linear-gradient(135deg, #667EEA 0%, #764BA2 100%)" },
+    "sessionCard":     { "$value": "linear-gradient(135deg, #5B21B6 0%, #2563EB 100%)" },
+    "illustrationPanel":{ "$value": "linear-gradient(135deg, #667EEA 0%, #764BA2 100%)" },
+    "phoneScreen":     { "$value": "linear-gradient(135deg, #F472B6 0%, #7C3AED 100%)" }
+  },
+
+  "typography": {
+    "fontFamily": {
+      "sans": { "$value": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" }
+    },
+    "fontSize": {
+      "2xs":    { "$value": "8.5px" },
+      "xs":     { "$value": "12px" },
+      "sm":     { "$value": "13px" },
+      "base":   { "$value": "14px" },
+      "md":     { "$value": "15px" },
+      "lg":     { "$value": "16px" },
+      "xl":     { "$value": "20px" },
+      "2xl":    { "$value": "24px" },
+      "3xl":    { "$value": "32px" },
+      "heading":{ "$value": "34px" },
+      "4xl":    { "$value": "40px" },
+      "5xl":    { "$value": "48px" }
+    },
+    "fontWeight": {
+      "regular":   { "$value": "400" },
+      "medium":    { "$value": "500" },
+      "semibold":  { "$value": "600" },
+      "bold":      { "$value": "700" },
+      "extrabold": { "$value": "800" }
+    },
+    "lineHeight": {
+      "tight":   { "$value": "1.18" },
+      "snug":    { "$value": "1.25" },
+      "normal":  { "$value": "1.45" },
+      "relaxed": { "$value": "1.5" }
+    },
+    "letterSpacing": {
+      "tight":  { "$value": "-0.5px" },
+      "normal": { "$value": "0px" },
+      "wide":   { "$value": "0.2px" }
+    }
+  },
+
+  "spacing": {
+    "0":   { "$value": "0px" },
+    "1":   { "$value": "4px" },
+    "2":   { "$value": "8px" },
+    "2.5": { "$value": "10px" },
+    "3":   { "$value": "12px" },
+    "3.5": { "$value": "14px" },
+    "4":   { "$value": "16px" },
+    "5":   { "$value": "20px" },
+    "6":   { "$value": "24px" },
+    "7":   { "$value": "28px" },
+    "7.5": { "$value": "30px" },
+    "8":   { "$value": "32px" },
+    "9":   { "$value": "36px" },
+    "10":  { "$value": "40px" },
+    "11":  { "$value": "44px" },
+    "12":  { "$value": "48px" },
+    "13":  { "$value": "52px" },
+    "16":  { "$value": "64px" }
+  },
+
+  "borderRadius": {
+    "none":      { "$value": "0px" },
+    "sm":        { "$value": "4px" },
+    "md":        { "$value": "8px" },
+    "input":     { "$value": "10px" },
+    "card":      { "$value": "16px", "$description": "Dashboard cards" },
+    "loginCard": { "$value": "24px", "$description": "Login card outer" },
+    "bubble":    { "$value": "14px" },
+    "full":      { "$value": "9999px" }
+  },
+
+  "shadow": {
+    "loginCard":     { "$value": "0px 24px 64px rgba(0, 0, 0, 0.13)" },
+    "dashboardCard": { "$value": "0 2px 16px rgba(124, 58, 237, 0.07)" },
+    "navBar":        { "$value": "0 1px 0 rgba(124, 58, 237, 0.08)" },
+    "sessionBtn":    { "$value": "0 4px 16px rgba(91, 33, 182, 0.25)" }
+  },
+
+  "border": {
+    "widthDefault": { "$value": "1.5px" },
+    "widthControl": { "$value": "2px" },
+    "colorDefault": { "$value": "#E5E7EB" },
+    "colorFocus":   { "$value": "#7C3AED" }
+  },
+
+  "dimension": {
+    "loginCard":    { "width": { "$value": "920px" }, "minHeight": { "$value": "565px" } },
+    "formPanel":    { "width": { "$value": "400px" } },
+    "dashboard":    { "maxWidth": { "$value": "1100px" }, "navHeight": { "$value": "64px" } },
+    "input":        { "paddingV": { "$value": "14px" }, "paddingH": { "$value": "16px" } },
+    "button":       { "width": { "$value": "150px" }, "paddingV": { "$value": "13px" } },
+    "checkbox":     { "size": { "$value": "18px" } }
+  },
+
+  "breakpoint": {
+    "mobile": { "$value": "640px" },
+    "tablet": { "$value": "1024px" }
+  },
+
+  "transition": {
+    "fast": { "$value": "0.1s ease" },
+    "base": { "$value": "0.2s ease" },
+    "slow": { "$value": "0.3s ease" }
+  }
+}

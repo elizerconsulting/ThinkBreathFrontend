@@ -1,0 +1,48 @@
+.daily-greeting {
+  flex: 1;
+}
+
+.greeting-date {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: rgba(255, 255, 255, 0.65);
+  letter-spacing: var(--letter-spacing-caps);
+  text-transform: uppercase;
+  margin-bottom: var(--space-3);
+}
+
+.greeting-headline {
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-extrabold);
+  color: var(--color-neutral-50);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+  margin-bottom: var(--space-3);
+}
+
+.greeting-name {
+  opacity: 0.9;
+}
+
+.greeting-tagline {
+  font-size: var(--font-size-lg);
+  color: rgba(255, 255, 255, 0.72);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .greeting-headline {
+    font-size: var(--font-size-3xl);
+  }
+}
+
+@media (max-width: 640px) {
+  .greeting-headline {
+    font-size: var(--font-size-2xl);
+  }
+  .greeting-tagline {
+    font-size: var(--font-size-base);
+  }
+}

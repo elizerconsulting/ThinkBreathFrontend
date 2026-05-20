@@ -1,0 +1,132 @@
+/* Auto-derived from design-tokens.json — do not hardcode values in components, use these vars */
+:root {
+  /* ── Colors: Brand ───────────────────────────────────── */
+  --color-brand-primary:       #7C3AED;
+  --color-brand-primary-hover: #6D28D9;
+  --color-brand-primary-light: #8B5CF6;
+  --color-brand-primary-muted: #9B7FD4;
+
+  /* ── Colors: Accent ──────────────────────────────────── */
+  --color-accent-amber:      #F59E0B;
+  --color-accent-amber-light:#FBBF24;
+  --color-accent-amber-bg:   #FEF3C7;
+
+  /* ── Colors: Neutral scale ───────────────────────────── */
+  --color-neutral-900: #0A0B18;
+  --color-neutral-850: #15162B;
+  --color-neutral-800: #1A1A2E;
+  --color-neutral-700: #1E293B;
+  --color-neutral-600: #334155;
+  --color-neutral-500: #374151;
+  --color-neutral-400: #475569;
+  --color-neutral-300: #94A3B8;
+  --color-neutral-200: #9CA3AF;
+  --color-neutral-150: #B0B7C3;
+  --color-neutral-100: #E5E7EB;
+  --color-neutral-50:  #FFFFFF;
+
+  /* ── Colors: Page backgrounds ────────────────────────── */
+  --color-page-login: #E2E2E2;
+  --color-page-home:  #F8F7FF;
+
+  /* ── Colors: Gradients ───────────────────────────────── */
+  --gradient-hero:         linear-gradient(135deg, #667EEA 0%, #764BA2 100%);
+  --gradient-session-card: linear-gradient(135deg, #5B21B6 0%, #2563EB 100%);
+  --gradient-panel:        linear-gradient(135deg, #667EEA 0%, #764BA2 100%);
+  --gradient-phone-screen: linear-gradient(135deg, #F472B6 0%, #7C3AED 100%);
+
+  /* ── Typography ──────────────────────────────────────── */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --font-size-2xs:    8.5px;
+  --font-size-xs:     12px;
+  --font-size-sm:     13px;
+  --font-size-base:   14px;
+  --font-size-md:     15px;
+  --font-size-lg:     16px;
+  --font-size-xl:     20px;
+  --font-size-2xl:    24px;
+  --font-size-3xl:    32px;
+  --font-size-heading:34px;
+  --font-size-4xl:    40px;
+  --font-size-5xl:    48px;
+
+  --font-weight-regular:   400;
+  --font-weight-medium:    500;
+  --font-weight-semibold:  600;
+  --font-weight-bold:      700;
+  --font-weight-extrabold: 800;
+
+  --line-height-tight:   1.18;
+  --line-height-snug:    1.25;
+  --line-height-normal:  1.45;
+  --line-height-relaxed: 1.5;
+
+  --letter-spacing-tight:  -0.5px;
+  --letter-spacing-normal: 0px;
+  --letter-spacing-wide:   0.2px;
+  --letter-spacing-caps:   1.2px;
+
+  /* ── Spacing ─────────────────────────────────────────── */
+  --space-0:   0px;
+  --space-1:   4px;
+  --space-2:   8px;
+  --space-2-5: 10px;
+  --space-3:   12px;
+  --space-3-5: 14px;
+  --space-4:   16px;
+  --space-5:   20px;
+  --space-6:   24px;
+  --space-7:   28px;
+  --space-7-5: 30px;
+  --space-8:   32px;
+  --space-9:   36px;
+  --space-10:  40px;
+  --space-11:  44px;
+  --space-12:  48px;
+  --space-13:  52px;
+  --space-16:  64px;
+
+  /* ── Border radius ───────────────────────────────────── */
+  --radius-none:       0px;
+  --radius-sm:         4px;
+  --radius-md:         8px;
+  --radius-input:      10px;
+  --radius-card:       16px;
+  --radius-login-card: 24px;
+  --radius-bubble:     14px;
+  --radius-full:       9999px;
+
+  /* ── Shadows ─────────────────────────────────────────── */
+  --shadow-login-card:    0px 24px 64px rgba(0, 0, 0, 0.13);
+  --shadow-dashboard-card:0 2px 16px rgba(124, 58, 237, 0.07);
+  --shadow-nav:           0 1px 0 rgba(124, 58, 237, 0.08);
+  --shadow-session-btn:   0 4px 16px rgba(91, 33, 182, 0.25);
+
+  /* ── Borders ─────────────────────────────────────────── */
+  --border-width-default: 1.5px;
+  --border-width-control: 2px;
+  --border-color-default: #E5E7EB;
+  --border-color-focus:   #7C3AED;
+
+  /* ── Dimensions ──────────────────────────────────────── */
+  --dim-login-card-w:    920px;
+  --dim-login-card-h:    565px;
+  --dim-form-panel-w:    400px;
+  --dim-dashboard-max:   1100px;
+  --dim-nav-height:      64px;
+
+  /* ── Transitions ─────────────────────────────────────── */
+  --transition-fast: 0.1s ease;
+  --transition-base: 0.2s ease;
+  --transition-slow: 0.3s ease;
+}
+
+/* ── Utility: section label ──────────────────────────────── */
+.section-label {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-caps);
+  text-transform: uppercase;
+  color: var(--color-neutral-200);
+}
